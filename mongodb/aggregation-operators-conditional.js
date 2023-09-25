@@ -49,7 +49,7 @@
 				{ case: BOOLEAN_EXPRESSION_N, then: EXPRESSION_N },
 			],
 
-			// Opcional. If unspecified and no branch case evaluates to true,
+			// Optional. If unspecified and no branch case evaluates to true,
 			// returns an error.
 			default: EXPRESSION,
 		},

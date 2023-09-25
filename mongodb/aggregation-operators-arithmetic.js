@@ -1,5 +1,6 @@
 [
 	/*
+		Aggregation.
 		Arithmetic Expression Operators.
 
 
@@ -64,10 +65,10 @@
 	{ $floor: NUMBER },
 
 	// Rounds a number to a whole integer or to a specified decimal place.
-	{ $round: [NUMBER, DECIMAL_PLACE /* Opcional. */] },
+	{ $round: [NUMBER, DECIMAL_PLACE /* Optional. */] },
 
 	// Truncates a number to a whole integer or to a specified decimal place.
-	{ $trunc: [NUMBER, DECIPLA_PLACE /* Opcional. */] },
+	{ $trunc: [NUMBER, DECIPLA_PLACE /* Optional. */] },
 
 
 
