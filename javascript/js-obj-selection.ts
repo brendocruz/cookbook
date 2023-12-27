@@ -1,3 +1,23 @@
+/*==============================================================================
+==== Selection OBJECT ==========================================================
+==============================================================================*/
+/*--- DEFINITION ---------------------------------------------------------------
+A `Selection` object represents the range of text selected by the user or the
+current position of the caret.
+------------------------------------------------------------------------------*/
+/*--- DEFINITION ---------------------------------------------------------------
+To obtain a `Selection` object for examinination or manipulation, call 
+`Window.getSelection()` or `Document.getSelection()`.
+------------------------------------------------------------------------------*/
+/*--- ANCHOR AND FOCUS ---------------------------------------------------------
+The anchor is where the use began the selection and the focus is where the user
+ends the selection.
+------------------------------------------------------------------------------*/
+
+
+
+
+
 const selection: Selection = document.getSelection()!;
 /*==============================================================================
 ==== INSTANCE PROPERTIES =======================================================
